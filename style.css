@@ -1,0 +1,27 @@
+:root {
+--main:#333;
+--font:#fff;
+}
+body{
+    background:var(--main);
+    color: var(--font);
+}
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.7;
+}
+.header .container{
+    height: 500px ;
+}
+.header-inner .icon i{
+    font-size: 38px;
+    color: var(--font);
+    font-weight: 900;
+}
+.dark-overlay{
+    background-image: url("img/home.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+} 
