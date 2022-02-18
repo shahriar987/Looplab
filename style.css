@@ -8,8 +8,7 @@ body{
 }
 .navbar{
     border-bottom: 3px solid #008ed6;
-    background: #292b2c;
-    opacity: 0.7;
+    background: rgba(0,0,#292b2c,0.7);
 }
 .header .container{
     height: 500px ;
@@ -18,10 +17,32 @@ body{
     font-size: 38px;
     color: var(--font);
     font-weight: 900;
+    border-radius: 5px;
+}
+.header{
+    background-image: url("img/home.jpg");
+    background-position: center top;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+}
+.header .container{
+    padding-top: 120px;
 }
 .dark-overlay{
-    background-image: url("img/home.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.4;
+  background: rgba(0,0,0,0.7);
+  min-height: 700px;
 } 
+#learn{
+    background: #fff;
+    color: black;
+}
+.sign i{
+    color: #fff;
+    background: #000;
+    font-size: 38px;
+}
+#share{
+    color: black;
+    background: #fff;
+}
